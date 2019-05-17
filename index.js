@@ -1,5 +1,10 @@
 
-
+Vue.component("first-item",{
+    template:'<h2>this is my first component</h2>'
+})
+Vue.component('todo-item', {
+    template: '<li>This is a todo</li>'
+  })
 
 var app = new Vue({
     el: '#app',
