@@ -13,7 +13,11 @@
     <div id="app">
         {{message}}
         <h1 v-if="bool">hello conditions</h1>
+        <ul v-for="todo in todos">
+            <li>{{todo.name}}</li>
+        </ul>
     </div>
+
     <div>
 
     </div>
