@@ -4,6 +4,7 @@
 var app = new Vue({
     el: '#app',
     data: {
-        message: "hello vue "
+        message: "hello vue ",
+        bool: true
     }
 })
