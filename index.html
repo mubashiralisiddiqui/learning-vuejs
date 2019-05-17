@@ -12,9 +12,10 @@
 <body>
     <div id="app">
         {{message}}
+        <input type="text" v-model="message" />
         <h1 v-if="bool">hello conditions</h1>
         <ul v-for="todo in todos">
-            <li>{{todo.name}}</li>
+            <li v-on:click="test">{{todo.name}}</li>
         </ul>
     </div>
 
